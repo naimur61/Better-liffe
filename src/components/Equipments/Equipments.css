@@ -1,0 +1,61 @@
+html {
+	font-size: 1em;
+}
+
+body {
+	font: 1.2em Helvetica, Arial, sans-serif;
+	padding: 0;
+	background-color: rgb(246, 246, 246);
+}
+.wrapper {
+	max-width: 100%;
+	margin: auto;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin: 0;
+}
+
+.product-container {
+	margin: 0 5rem 5rem 7rem;
+}
+
+/* Tablet */
+@media screen and (min-width: 700px) {
+	.product-container {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 20px;
+		margin: 0 2rem 2rem 4rem;
+	}
+}
+
+/* desktop */
+
+@media screen and (min-width: 1051px) {
+	.product-container {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+}
+
+.col2 {
+	background-color: white;
+}
+
+@media screen and (min-width: 950px) {
+	.wrapper {
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+}

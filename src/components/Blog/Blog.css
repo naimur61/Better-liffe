@@ -1,0 +1,16 @@
+.blog {
+	padding: 3rem 5rem;
+	background-image: url(victor-freitas-WvDYdXDzkhs-unsplash.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-weight: 700;
+	color: white;
+}
+.q-div {
+	margin-top: 5rem;
+	background-color: rgba(0, 0, 0, 0.356);
+}
+p,
+h2 {
+	padding: 20px;
+}
